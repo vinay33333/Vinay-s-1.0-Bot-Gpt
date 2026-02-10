@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay's Bot 1.0</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="chatbot-icon">💬</div>
+
+    <div id="chatbot-container" class="hidden">
+        <div id="chatbot-header">
+            <div class="header-brand">
+                <span class="status-dot"></span>
+                <strong>Vinay's Bot 1.0(Manadeyy idantaa:)</strong>
+            </div>
+            <button id="close-btn">&times;</button>
+        </div>
+        
+        <div id="chatbot-body">
+            <div id="welcome-screen" class="welcome-screen">
+                <div class="welcome-icon">🤖</div>
+                <h1>Welcome to Vinay's Bot 1.0</h1>
+                <p>Keep your ego aside & approach to me ASAP</p>
+                <div class="divider"></div>
+            </div>
+
+            <div id="chatbot-messages"></div>
+        </div>
+
+        <div id="chatbot-input-container">
+            <input type="text" id="chatbot-input" placeholder="Message Vinay's Bot...">
+            <button id="send-btn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
